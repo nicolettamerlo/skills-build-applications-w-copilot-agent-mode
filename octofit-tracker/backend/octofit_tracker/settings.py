@@ -4,7 +4,7 @@ INSTALLED_APPS = [
     'octofit_tracker_app',
 ]
 
-# Add the djongo database engine to the settings
+# Add the djongo database engine
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
@@ -37,4 +37,4 @@ CORS_ALLOW_HEADERS = [
 ]
 
 # Allow all hosts
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'solid-goldfish-v6v79r7v6v9rfx7vv-8000.app.github.dev']
