@@ -4,7 +4,7 @@ INSTALLED_APPS = [
     'octofit_tracker_app',
 ]
 
-# Remove the existing database configuration
+# Add the djongo database engine to the settings
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
